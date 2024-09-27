@@ -1,0 +1,11 @@
+[package]
+name = "LibraryManager"
+version = "0.1.0"
+
+[dependencies]
+AptosFramework = { git = 'https://github.com/aptos-labs/aptos-core.git', rev = 'main', subdir = 'aptos-move/framework/aptos-framework' }
+
+[addresses]
+library_addr = '0x1c4b961494164959385f8d0154cfeed379200521ab05463eb09e86436447c797'
+
+[dev-addresses]
