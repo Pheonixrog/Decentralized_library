@@ -24,4 +24,19 @@ The **Decentralized Library** DApp allows users to manage and access books in a 
 - **Move SDK**: Used for developing and publishing the smart contracts.
 - **Node.js & npm**: For running the TypeScript-based front-end.
 
+## Deploy the Smart Contract
+To deploy the smart contract:
+
+Install Aptos CLI.
+
+Update the Move.toml file with your wallet address:
+
+aptos init
+Add your Account addr here for Deployment
+library_addr = '0x1c4b961494164959385f8d0154cfeed379200521ab05463eb09e86436447c797'
+Compile and publish the contract:
+
+aptos move compile
+aptos move publish
+
 
